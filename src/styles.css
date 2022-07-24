@@ -1,0 +1,81 @@
+.body-container {
+    width: 600px;
+    border: 1px solid transparent;
+    display: block;
+    box-sizing: content-box;
+  
+    display: left;
+    background-image: url("images/image.jpg");
+    height: 400px;
+  }
+  form {
+    margin-left: 20px;
+  }
+  .forecast {
+    background: transparent;
+    text-align: center;
+    padding: 1px;
+    width: 400px;
+    margin: auto;
+    border: 2px;
+    border-color: grey;
+    border-style: outset;
+  }
+  .formal {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+  }
+  .current-temp {
+    font-size: 32px;
+  }
+  .sunicon {
+    font-size: 32px;
+  }
+  .current {
+    text-align: inherit;
+    display: block;
+  }
+  
+  .current-date {
+    display: inline;
+    margin-left: 30px;
+  }
+  .current-city {
+    text-align: right;
+  }
+  
+  .format {
+    font-size: 30px;
+  }
+  .month-section {
+    font-size: 12px;
+  }
+  .container {
+    display: inline;
+    text-align: center;
+  }
+  .days-of-week {
+    list-style: none;
+    padding: 0px;
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+  li.days {
+    background: none;
+    padding: 0 15px;
+    margin: 0 20px;
+    display: inline-block;
+  }
+  li.days:hover {
+    color: black;
+    background: white;
+    opacity: 0.6;
+    border: white white;
+  }
+  .units {
+    position: relative;
+    top: -14px;
+  }
+  
