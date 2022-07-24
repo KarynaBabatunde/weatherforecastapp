@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>She Codes Plus</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="body-container">
+    <br />
+    <form id="city-search">
+      <input type="search" id="city-index"  placeholder="Enter a city">
+      <button type="submit">Search</button>
+    </form>
+    <div class="current-date" id="date">June 24</div>
+
+    <div class="current-city">
+        <ul class="formal"> 
+            <li class="format" id="city">London</li> 
+            <li class="current" id="description"><small>Clouds</small></li> 
+
+            <li class="current"><span class="current-temp" id="current-temp">20</span><span class="units">°C</span><small>Humidity <span id="humidity">73</span>% <span class="sunicon" id="icon">⛅</span></li>
+            <li class="current">Wind: <span id="wind">5</span>km/h</small></li> 
+        </ul></div>
+    <div class="forecast">5 day forecast</div>
+    <div class="container">
+      <ul class="days-of-week" >
+    <li class="days"><strong>Sun</strong>
+        
+        <div class="month-section">June 25</div>
+        <div class="sun-icon">🌧</div>
+        <div>18 C°</div></li>
+    <li class="days"><strong>Mon</strong>
+          
+          <div class="month-section">June 26</div>
+          <div class="sun-icon">🌧</div>
+          <div>18 C°</div></li>
+    <li class="days"><strong>Tue</strong>
+          
+          <div class="month-section">June 27</div>
+          <div class="sun-icon">🌧</div>
+          <div>19 C°</div></li>
+      
+    <li class="days"><strong>Wed</strong>
+          
+          <div class="month-section">June 28</div>
+          <div class="sun-icon">⛅</div>
+          <div>17 C°</div></li>
+    <li class="days"><strong>Thu</strong>
+          
+          <div class="month-section">June 29</div>
+          <div class="sun-icon">🌧</div>
+          <div>16 C°</div></li>
+      </div>
+    </ul>  
+   <script src="src/index.js"></script>    
+  </body>
+   
+</html>
