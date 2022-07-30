@@ -1,12 +1,14 @@
 .body-container {
-    width: 600px;
+    width: 650px;
     border: 1px solid transparent;
     display: block;
     box-sizing: content-box;
   
     display: left;
     background-image: url("images/image.jpg");
-    height: 400px;
+    background: radial-gradient(1224px at 10.6% 8.8%, rgb(255, 255, 255) 0%, rgb(153, 202, 251) 100.2%);
+
+    height: 500px;
   }
   form {
     margin-left: 20px;
@@ -30,7 +32,7 @@
     font-size: 32px;
   }
   .sunicon {
-    font-size: 32px;
+    font-size: 10px;
   }
   .current {
     text-align: inherit;
@@ -43,6 +45,7 @@
   }
   .current-city {
     text-align: right;
+    margin-right: 20px;
   }
   
   .format {
@@ -61,6 +64,7 @@
     text-align: left;
     margin-left: 20px;
   }
+
   
   li.days {
     background: none;
