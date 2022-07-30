@@ -3,13 +3,9 @@
     border: 1px solid transparent;
     display: block;
     box-sizing: content-box;
-  
-    display: left;
-    background-image: url("images/image.jpg");
     background: radial-gradient(1224px at 10.6% 8.8%, rgb(255, 255, 255) 0%, rgb(153, 202, 251) 100.2%);
-
     height: 500px;
-  }
+   }
   form {
     margin-left: 20px;
   }
@@ -27,6 +23,8 @@
     list-style: none;
     text-align: center;
     display: inline-block;
+    margin: 0 0 10px;
+  padding: 0;
   }
   .current-temp {
     font-size: 32px;
@@ -37,19 +35,17 @@
   .current {
     text-align: inherit;
     display: block;
+    padding: 0;
   }
   
   .current-date {
     display: inline;
     margin-left: 30px;
   }
-  .current-city {
-    text-align: right;
-    margin-right: 20px;
-  }
   
   .format {
     font-size: 30px;
+    margin-left: 30px;
   }
   .month-section {
     font-size: 12px;
