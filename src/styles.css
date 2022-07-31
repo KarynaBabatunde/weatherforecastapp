@@ -78,4 +78,10 @@
     position: relative;
     top: -14px;
   }
-  
+  .active {
+    color: black;
+    cursor: default;
+  }
+  .active:hover {
+    text-decoration: none;
+  }
