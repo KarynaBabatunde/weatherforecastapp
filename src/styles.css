@@ -54,7 +54,7 @@
     display: inline;
     text-align: center;
   }
-  .days-of-week {
+  .weather-forecast {
     list-style: none;
     padding: 0px;
     text-align: left;
@@ -62,18 +62,22 @@
   }
 
   
-  li.days {
+  .weather-forecast .row {
     background: none;
     padding: 0 15px;
     margin: 0 20px;
     display: inline-block;
   }
-  li.days:hover {
+  .weather-forecast .row:hover {
     color: black;
     background: white;
     opacity: 0.6;
     border: white white;
   }
+  .weather-forecast-temperature-min {
+    opacity: 0.6;
+  }
+
   .units {
     position: relative;
     top: -14px;
