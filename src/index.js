@@ -115,3 +115,4 @@ function formatDate(date) {
   searchForm.addEventListener("submit", handleSubmit);
 
   displayForecast();
+  
