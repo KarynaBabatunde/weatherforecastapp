@@ -56,19 +56,19 @@
   }
   .weather-forecast {
     list-style: none;
-    padding: 0px;
+    padding: 1px;
     text-align: left;
     margin-left: 20px;
   }
 
   
-  .weather-forecast .row {
+  .weather-forecast .col-2 {text-align: center;
     background: none;
-    padding: 0 15px;
-    margin: 0 20px;
+    padding: 1 px;
+    margin: 0 10px;
     display: inline-block;
   }
-  .weather-forecast .row:hover {
+  .weather-forecast .col-2:hover {
     color: black;
     background: white;
     opacity: 0.6;
