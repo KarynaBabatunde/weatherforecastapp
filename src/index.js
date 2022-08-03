@@ -114,5 +114,4 @@ function formatDate(date) {
   let searchForm = document.querySelector("#city-search");
   searchForm.addEventListener("submit", handleSubmit);
 
-  displayForecast();
-  
+  searchCity("London");
